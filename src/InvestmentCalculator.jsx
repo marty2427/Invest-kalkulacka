@@ -951,7 +951,7 @@ export default function InvestmentCalculator() {
             <div className="ms-inputs-grid">{growthInputs}</div>
 
             {/* Display mode toggle */}
-            <div style={{ display: 'flex', justifyContent: 'center', margin: '88px 0 64px' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', margin: '88px 0 32px' }}>
               <ModernToggle
                 value={displayMode}
                 onChange={setDisplayMode}
@@ -1168,7 +1168,7 @@ export default function InvestmentCalculator() {
           <>
             <div className="ms-inputs-grid">{goalInputs}</div>
 
-            <div style={{ display: 'flex', justifyContent: 'center', margin: '88px 0 64px' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', margin: '88px 0 32px' }}>
               <ModernToggle
                 value={goalMode}
                 onChange={setGoalMode}
