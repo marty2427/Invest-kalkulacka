@@ -512,7 +512,7 @@ export default function InvestmentCalculator() {
   const [initial, setInitial] = useState(100_000);
   const [monthly, setMonthly] = useState(5_000);
   const [years, setYears] = useState(20);
-  const [annualReturn, setAnnualReturn] = useState(7);
+  const [annualReturn, setAnnualReturn] = useState(9);
   const [inflation, setInflation] = useState(3);
   const [valorization, setValorization] = useState(3);
   const [displayMode, setDisplayMode] = useState('nominal');
@@ -521,7 +521,7 @@ export default function InvestmentCalculator() {
   const [targetAmount, setTargetAmount] = useState(3_000_000);
   const [targetInitial, setTargetInitial] = useState(50_000);
   const [targetYears, setTargetYears] = useState(20);
-  const [targetReturn, setTargetReturn] = useState(7);
+  const [targetReturn, setTargetReturn] = useState(9);
   const [targetInflation, setTargetInflation] = useState(3);
   const [targetValorization, setTargetValorization] = useState(0);
   const [goalMode, setGoalMode] = useState('nominal');
@@ -951,7 +951,7 @@ export default function InvestmentCalculator() {
             <div className="ms-inputs-grid">{growthInputs}</div>
 
             {/* Display mode toggle */}
-            <div style={{ display: 'flex', justifyContent: 'center', margin: '72px 0 48px' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', margin: '88px 0 64px' }}>
               <ModernToggle
                 value={displayMode}
                 onChange={setDisplayMode}
@@ -1168,7 +1168,7 @@ export default function InvestmentCalculator() {
           <>
             <div className="ms-inputs-grid">{goalInputs}</div>
 
-            <div style={{ display: 'flex', justifyContent: 'center', margin: '72px 0 48px' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', margin: '88px 0 64px' }}>
               <ModernToggle
                 value={goalMode}
                 onChange={setGoalMode}
